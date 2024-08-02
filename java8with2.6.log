@@ -1,0 +1,23 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.0)
+
+2024-08-02 14:09:54.233  INFO 95428 --- [           main] d.d.k.s.h.h.HelloSpringApplication       : Starting HelloSpringApplication using Java 1.8.0_412 on juice.local with PID 95428 (/Users/dashaun/fun/dashaun/tanzu-essentials-demo/hello-spring-boot-2-6/target/classes started by dashaun in /Users/dashaun/fun/dashaun/tanzu-essentials-demo/hello-spring-boot-2-6)
+2024-08-02 14:09:54.234  INFO 95428 --- [           main] d.d.k.s.h.h.HelloSpringApplication       : No active profile set, falling back to default profiles: default
+2024-08-02 14:09:54.781  INFO 95428 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-08-02 14:09:54.786  INFO 95428 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-02 14:09:54.786  INFO 95428 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-08-02 14:09:54.816  INFO 95428 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-02 14:09:54.816  INFO 95428 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2024-08-02 14:09:55.140  INFO 95428 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-08-02 14:09:55.162  INFO 95428 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-02 14:09:55.170  INFO 95428 --- [           main] d.d.k.s.h.h.HelloSpringApplication       : Started HelloSpringApplication in 1.118 seconds (JVM running for 1.369)
+2024-08-02 14:09:59.079  INFO 95428 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 14:09:59.079  INFO 95428 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-02 14:09:59.080  INFO 95428 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-02 14:10:07.168  INFO 95428 --- [on(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
